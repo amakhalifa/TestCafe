@@ -1,0 +1,14 @@
+{
+  "name": "testdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.9.4"
+  },
+  "scripts": {
+    "test:chrome": "testcafe chrome tests -s screenshots -takeOnFails=true"
+  }
+}
