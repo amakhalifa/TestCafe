@@ -1,9 +1,8 @@
-import Page from "./BasePage";
+import BasePage from "./BasePage";
 import HomePage from "./HomePage";
+import { Selector, t} from "testcafe"
 
-const { Selector, t } = require("testcafe");
-
-export default class LoginPage extends Page {
+export default class LoginPage extends BasePage {
     constructor() {
         super()
         

@@ -6,7 +6,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "testcafe": "^1.9.4"
+    "debug": "^4.2.0",
+    "testcafe": "^1.9.4",
+    "testcafe-reporter-junit": "^3.0.2"
   },
   "scripts": {
     "test:chrome": "testcafe chrome tests -s screenshots -takeOnFails=true"
